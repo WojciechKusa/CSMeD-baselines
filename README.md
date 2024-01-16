@@ -16,6 +16,14 @@ $ conda activate csmed
 
 ## Running
 
+### CSMeD-Cochrane
+
+To run the experiments on CSMeD-Cochrane, run:
+
+```zsh
+(csmed)$ python experiments/csmed_cochrane/csmed_cochrane_retrieval.py
+```
+
 ### CSMeD-FT
 
 Experiments on CSMeD-FT consist of two parts: (1) fine-tuned classification Transformer models and (2) zero-shot prompting via OpenAI models.
