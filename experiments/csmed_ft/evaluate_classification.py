@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from datasets import load_dataset
 
-from experiments.full_text.analyse_results import get_evaluation
+from experiments.csmed_ft.analyse_results import get_evaluation
 
 csmed_ft = load_dataset(
     "../../csmed/datasets/datasets/csmed_ft", name="csmed_ft_all_source"

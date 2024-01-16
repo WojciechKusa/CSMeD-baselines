@@ -1,8 +1,10 @@
 # CSMeD-baselines
-Baseline experiments from the paper "CSMeD: Bridging the Dataset Gap in Automated Citation Screening for Systematic Literature Reviews"
-
+This repository contains baseline experiments from the paper "CSMeD: Bridging the Dataset Gap in Automated Citation Screening for Systematic Literature Reviews".
+CSMeD dataset is described and available at: [WojciechKusa/systematic-review-datasets](https://github.com/WojciechKusa/systematic-review-datasets).
 
 ## Installation
+
+Tested with Python 3.10.
 
 ### Requirements
 
@@ -15,6 +17,14 @@ $ conda activate csmed
 ```
 
 ## Running
+
+### CSMeD-Cochrane
+
+To run the experiments on CSMeD-Cochrane, run:
+
+```zsh
+(csmed)$ python experiments/csmed_cochrane/csmed_cochrane_retrieval.py
+```
 
 ### CSMeD-FT
 
