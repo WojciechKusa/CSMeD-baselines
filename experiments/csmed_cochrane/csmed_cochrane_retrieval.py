@@ -9,7 +9,7 @@ from numba import njit
 from retriv import SparseRetriever, DenseRetriever
 
 from csmed.datasets.datasets.csmed_cochrane.csmed_cochrane import CSMeDCochrane
-from experiments.title_and_abstract.measures import evaluate_runs
+from experiments.csmed_cochrane.measures import evaluate_runs
 
 # Constants
 SEED = 42

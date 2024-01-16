@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.dummy import DummyClassifier
 from tqdm import tqdm
 
-from experiments.full_text.analyse_results import get_evaluation
+from experiments.csmed_ft.analyse_results import get_evaluation
 
 data_path = "../data/CSMeD/CSMeD-FT/"
 datasets = [x for x in os.listdir(data_path) if x.endswith(".csv")]
