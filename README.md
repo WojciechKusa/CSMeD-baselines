@@ -26,6 +26,8 @@ To run the experiments on CSMeD-Cochrane, run:
 (csmed)$ python experiments/csmed_cochrane/csmed_cochrane_retrieval.py
 ```
 
+Results of the baseline experiment are available under the following URL [csmed-cochrane-baseline-results.zip](https://www.dropbox.com/scl/fi/a1a4jr1wh0gwari5sqvcw/csmed-cochrane-baseline-results.zip?rlkey=7yi1dk2wpw6nb4gnaccbp6191&dl=0)
+
 ### CSMeD-FT
 
 Experiments on CSMeD-FT consist of two parts: (1) fine-tuned classification Transformer models and (2) zero-shot prompting via OpenAI models.
